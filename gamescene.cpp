@@ -385,6 +385,7 @@ void GameScene::updateHUD()
 void GameScene::endGame(const QString &winner)
 {
     gameOver = true;
+    timer->stop();
     auto *bg = addRect(180, 190, 440, 220, Qt::NoPen, QColor(0, 0, 0, 210));
     bg->setZValue(10);
 
