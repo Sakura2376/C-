@@ -122,32 +122,32 @@ void GameScene::loadMap(int index)
     switch (index) {
     case 0: // Arena
         solids.append(addRect(300, 455, 200, 15, Qt::NoPen, pc));
-        solids.append(addRect(90, 445, 160, 15, Qt::NoPen, pc));
-        solids.append(addRect(550, 445, 160, 15, Qt::NoPen, pc));
+        solids.append(addRect(120, 445, 160, 15, Qt::NoPen, pc));
+        solids.append(addRect(520, 445, 160, 15, Qt::NoPen, pc));
         solids.append(addRect(370, 340, 60, 15, Qt::NoPen, ph));
-        solids.append(addRect(170, 495, 45, 55, Qt::NoPen, bc));
-        solids.append(addRect(585, 495, 45, 55, Qt::NoPen, bc));
+        solids.append(addRect(180, 495, 45, 55, Qt::NoPen, bc));
+        solids.append(addRect(575, 495, 45, 55, Qt::NoPen, bc));
         spawnSurfaces.append(QRectF(300, 445, 200, 10));
-        spawnSurfaces.append(QRectF(90, 435, 160, 10));
-        spawnSurfaces.append(QRectF(550, 435, 160, 10));
+        spawnSurfaces.append(QRectF(120, 435, 160, 10));
+        spawnSurfaces.append(QRectF(520, 435, 160, 10));
         spawnSurfaces.append(QRectF(370, 330, 60, 10));
         break;
     case 1: // Castle
-        solids.append(addRect(270, 455, 260, 15, Qt::NoPen, pc));
-        solids.append(addRect(30, 445, 160, 15, Qt::NoPen, pc));
-        solids.append(addRect(610, 445, 160, 15, Qt::NoPen, pc));
+        solids.append(addRect(280, 455, 240, 15, Qt::NoPen, pc));
+        solids.append(addRect(60, 445, 160, 15, Qt::NoPen, pc));
+        solids.append(addRect(580, 445, 160, 15, Qt::NoPen, pc));
         solids.append(addRect(325, 350, 150, 15, Qt::NoPen, pc));
-        solids.append(addRect(50, 340, 120, 15, Qt::NoPen, pc));
-        solids.append(addRect(630, 340, 120, 15, Qt::NoPen, pc));
+        solids.append(addRect(75, 340, 120, 15, Qt::NoPen, pc));
+        solids.append(addRect(605, 340, 120, 15, Qt::NoPen, pc));
         solids.append(addRect(375, 245, 50, 15, Qt::NoPen, ph));
-        solids.append(addRect(145, 495, 45, 55, Qt::NoPen, bc));
-        solids.append(addRect(610, 495, 45, 55, Qt::NoPen, bc));
-        spawnSurfaces.append(QRectF(270, 445, 260, 10));
-        spawnSurfaces.append(QRectF(30, 435, 160, 10));
-        spawnSurfaces.append(QRectF(610, 435, 160, 10));
+        solids.append(addRect(155, 495, 45, 55, Qt::NoPen, bc));
+        solids.append(addRect(600, 495, 45, 55, Qt::NoPen, bc));
+        spawnSurfaces.append(QRectF(280, 445, 240, 10));
+        spawnSurfaces.append(QRectF(60, 435, 160, 10));
+        spawnSurfaces.append(QRectF(580, 435, 160, 10));
         spawnSurfaces.append(QRectF(325, 340, 150, 10));
-        spawnSurfaces.append(QRectF(50, 330, 120, 10));
-        spawnSurfaces.append(QRectF(630, 330, 120, 10));
+        spawnSurfaces.append(QRectF(75, 330, 120, 10));
+        spawnSurfaces.append(QRectF(605, 330, 120, 10));
         spawnSurfaces.append(QRectF(375, 235, 50, 10));
         break;
     case 2: // Towers
